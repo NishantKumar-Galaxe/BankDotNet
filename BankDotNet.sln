@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankOfDotNet.API", "BankOfDotNet.API\BankOfDotNet.API.csproj", "{CB961BD6-F8DD-4AFC-B0B9-41F0B72520AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankOfDotNet.API", "BankOfDotNet.API\BankOfDotNet.API.csproj", "{CB961BD6-F8DD-4AFC-B0B9-41F0B72520AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankOfDotNet.IdentityServer", "BankOfDotNet.IdentityServer\BankOfDotNet.IdentityServer.csproj", "{2A239C97-1DE0-405B-98DC-4C283D4A7A68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankOfDotNet.IdentityServer", "BankOfDotNet.IdentityServer\BankOfDotNet.IdentityServer.csproj", "{2A239C97-1DE0-405B-98DC-4C283D4A7A68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankOfDotNet.ConsoleClient", "BankOfDotNet.ConsoleClient\BankOfDotNet.ConsoleClient.csproj", "{31FE979F-50DB-4BF5-8685-1A8AA4ADDCE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2A239C97-1DE0-405B-98DC-4C283D4A7A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A239C97-1DE0-405B-98DC-4C283D4A7A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A239C97-1DE0-405B-98DC-4C283D4A7A68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31FE979F-50DB-4BF5-8685-1A8AA4ADDCE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31FE979F-50DB-4BF5-8685-1A8AA4ADDCE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31FE979F-50DB-4BF5-8685-1A8AA4ADDCE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31FE979F-50DB-4BF5-8685-1A8AA4ADDCE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
